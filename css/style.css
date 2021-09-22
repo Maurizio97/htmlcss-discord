@@ -52,7 +52,7 @@ nav img {
     vertical-align: middle;
 }
 
-ul {
+#menu {
     position: absolute;
     left: 50%;
     top: 20px;
@@ -127,33 +127,28 @@ main {
 
 /* footer */
 footer {
-    height: 100vh;
-    /* debug */
+    height: 700px;
     background-color: #23272a;
 }
 
 aside {
     float: left;
-    padding: 65px 0;
-    /* debug */
-    border: solid 2px black;   
+    padding: 65px 0 40px;
 }
 
+/* colonna 1 */
 #colonna-1 {
     width: 28%;  
 }
 
 .columns {
     width: 18%;
-    /* debug */
-    height: 500px;
-    background-color: blueviolet
 }
 
 #colonna-1 h3{
     font-size: 40px; 
     color: rgb(103, 88, 241);
-    margin-bottom: 22px;
+    margin-bottom: 30px;
 }
 
 #colonna-1 span {
@@ -175,6 +170,44 @@ aside {
 .social {
     font-size: 25px;
     color: white;
-    margin: 20px 20px 0 0;
+    margin: 30px 20px 0 0;
 }
+/* /colonna 1 */
+
+
+/* colonne 1 2 3 4 */
+.titolo-column {
+    color: rgb(103, 88, 241);
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.list-items {
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    list-style-type: none;
+    margin: 20px 0 20px 0;
+}
+
+/* fondo pagina  */
+#fondo-pag {
+    border-top: solid 1px rgb(103, 88, 241);
+    padding: 20px 0 ;
+    position: relative;
+}
+
+.registrati {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background-color: rgb(103, 88, 241);
+    color: white;
+    padding: 10px 12px;
+}
+/* /fondo pagina  */
+
+
 /* /footer */
