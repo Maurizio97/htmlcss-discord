@@ -7,3 +7,31 @@
 body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+
+.centratura {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    height: 85vh;
+} 
+
+header img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+
+main {
+    /* debug */
+    height: 500px;
+    background-color: blueviolet;
+}
+
+footer {
+    height: 100vh;
+    /* debug */
+    background-color: black;
+}
