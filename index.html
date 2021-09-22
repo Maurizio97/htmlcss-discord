@@ -13,10 +13,11 @@
     <header>
         <div class="centratura">
             <!-- navigazione -->
-            <nav>
+            <nav class="clearfix">
                 <!-- logo -->
-                <a href="#"><img src="img/logo.svg" alt="logo">
-                </a>
+                <div class="float">
+                    <a href="#"><img class="logo" src="img/logo.svg" alt="logo"></a>
+                </div>              
                 
                 <!-- menu -->
                 <ul id="menu">
@@ -43,8 +44,9 @@
                 <!-- menu -->
                 
                 <!-- accedi -->
-                <a href="#" class="button accedi">Accedi</a>
-               
+               <!--  <div> -->
+                    <a href="#" class="button accedi">Accedi</a>
+                <!-- </div> -->
             </nav>
             <!-- /navigazione -->
 
@@ -74,16 +76,66 @@
         <!-- sezione 1 -->
         <section class="clearfix">
             <!-- colonna di sinistra -->
-            <aside class="column-left">
+            <aside class="column-img">
                 <img class="img-main" src="img/item1.svg" alt="immagine">
             </aside>
 
             <!-- colonna di destra -->
-            <aside class="column-right">
-                
+            <aside class="column-text">
+                <div class="text-main">
+                    <h2>
+                        Un luogo a invito con tutto lo spazio necessario per parlare
+                    </h2>
+                    <span>
+                        I server discord sono organizzati in canali tematici in cui puoi collaborare&comma; condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo&period;
+                    </span>
+                </div>
             </aside>
         </section>
         <!-- /sezione 1 -->
+
+        <!-- sezione 2 -->
+        <section class="clearfix">
+            <!-- colonna di testo -->
+            <aside class="column-text">
+                <div class="text-main">
+                    <h2>
+                        Dove trovarsi &egrave; facile
+                    </h2>
+                    <span>
+                        Mettiti comodo in un canale vocale quando hai tempo&period; Gli amici nel tuo server possono vedere che sei l&igrave; e unirsi instantaneamente senza dover chiamare&period; 
+                    </span>
+                </div>
+            </aside>
+            
+            <!-- colonna immagine -->
+            <aside class="column-img">
+                <img class="img-main" src="img/item2.svg" alt="immagine">
+            </aside>
+        </section>
+        <!-- /sezione 2 -->
+
+
+        <!-- sezione 3 -->
+        <section class="clearfix">
+            <!-- colonna immmagine-->
+            <aside class="column-img">
+                <img class="img-main" src="img/item3.svg" alt="immagine">
+            </aside>
+
+            <!-- colonna di testo -->
+            <aside class="column-text">
+                <div class="text-main">
+                    <h2>
+                        Da pochi a un fandom
+                    </h2>
+                    <span>
+                        Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile&period; Concedi ai membri poteri speciali&comma; crea canali privati&comma; e molto altro&period; 
+                    </span>
+                </div>
+            </aside>
+        </section>
+        <!-- /sezione 3 -->
 
         <!-- altre sezioni -->
         </div>
@@ -253,7 +305,7 @@
           
         </div>
         <section class="centratura" id="fondo-pag">
-            <a href="#"><img src="img/logo.svg" alt="logo">
+            <a href="#"><img class="logo" src="img/logo.svg" alt="logo">
             </a>
 
             <a href="#" class="button registrati">Registrati</a>
