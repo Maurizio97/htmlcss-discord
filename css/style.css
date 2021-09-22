@@ -124,6 +124,32 @@ main {
     height: 500px;
     background-color: blueviolet;
 }
+
+.img-main {
+    height: 100%;
+    width: 100%;
+}
+.column-left {
+    float: left;
+    width: 50%; 
+}
+
+
+
+.column-right {
+    float: left;
+    width: 50%;
+
+      /* debug */
+      background-color: tomato;
+      height: 200px;
+
+}
+
+
+
+
+
 /* /main */
 
 /* footer */
