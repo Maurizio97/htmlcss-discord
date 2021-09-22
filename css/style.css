@@ -13,18 +13,23 @@ body {
     margin: 0 auto;
 }
 
+ .clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+ }
+
 .button {
     background-color: white;
     padding: 7px 12px;
     text-decoration: none;
     color: black;
     font-weight: bold;
-    border-radius: 50px;
-    
+    border-radius: 50px; 
 } 
 /* header */
 header {
-    height: 70vh;
+    height: 700px;
     background-image: url('../img/jumbo.png');
     background-size: cover;
     background-position: center;
@@ -37,8 +42,10 @@ nav {
     height: 30px;
     line-height: 30px;
     vertical-align: middle;
-    position: relative
+    position: relative;
+    margin-bottom: 50px;
 }
+
 nav img { 
     display: inline-block;  
     line-height: 30px;
@@ -51,6 +58,7 @@ ul {
     top: 20px;
     transform: translate(-50%, -50%);
 }
+
 li {
     list-style-type: none;
     display: inline-block;
@@ -62,30 +70,111 @@ li a {
     color: white;
     font-weight: bold;
     font-size: 18px;
-
 }
 
 .accedi {
     position: absolute;
     right: 0;
     top: 20px;
-    transform: translateY(-50%);
-    
+    transform: translateY(-50%);  
 }
 /* /nav */
+
+/* jumbotron */
+#jumbotron {
+    height: 70%;
+    width: 60%;
+    margin: 200px auto;
+    text-align: center;
+    color: white;
+}
+
+#jumbotron h2 {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+#jumbotron span {
+    display: block;
+    margin: 40px 0 50px;
+    font-size: 20px; 
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+#jumbotron a {
+    padding: 20px 25px;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+.dark {
+    background-color: #23272a;
+    color: white;
+}
+/* /jumbotron */
 
 /* /header */
 
 
-
+/* main */
 main {
     /* debug */
     height: 500px;
     background-color: blueviolet;
 }
+/* /main */
 
+/* footer */
 footer {
     height: 100vh;
     /* debug */
-    background-color: black;
+    background-color: #23272a;
 }
+
+aside {
+    float: left;
+    padding: 65px 0;
+    /* debug */
+    border: solid 2px black;   
+}
+
+#colonna-1 {
+    width: 28%;  
+}
+
+.columns {
+    width: 18%;
+    /* debug */
+    height: 500px;
+    background-color: blueviolet
+}
+
+#colonna-1 h3{
+    font-size: 40px; 
+    color: rgb(103, 88, 241);
+    margin-bottom: 22px;
+}
+
+#colonna-1 span {
+    color: white;
+    font-size: 16px;
+}
+
+#colonna-1 img {
+    height: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.fa-chevron-down {
+    font-size: 16px;
+    color: white;
+}
+
+.social {
+    font-size: 25px;
+    color: white;
+    margin: 20px 20px 0 0;
+}
+/* /footer */
