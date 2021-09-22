@@ -9,7 +9,7 @@ body {
 }
 
 .centratura {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -20,11 +20,12 @@ body {
  }
 
 .button {
+    font-size: 14px;
     background-color: white;
-    padding: 7px 12px;
+    padding: 7px 16px;
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-weight: 500;
     border-radius: 50px; 
 } 
 /* header */
@@ -205,7 +206,7 @@ aside {
     top: 20px;
     background-color: rgb(103, 88, 241);
     color: white;
-    padding: 10px 12px;
+    padding: 7px 16px;
 }
 /* /fondo pagina  */
 
